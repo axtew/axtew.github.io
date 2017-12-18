@@ -2,10 +2,15 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=1100">
   <title>Afrodita</title>
+
+  <link href="css/main.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
 </head>
 
 <body>
@@ -14,29 +19,41 @@
     <header class="header">
       <div class="container">
         <div class="header__left header__col">
-          <img src="img/logo.png" alt="" class="header__logo-image">
+          <a href="" class="header__logo logo">
+            <img src="img/logo/logo.png" alt="" class="logo__image">
+          </a>
         </div>
+
         <div class="header__mid header__col">
-          <nav class="header__menu-nav">
-            <ul class="header__menu">
-              <li class="header__main-item">
-                <img src="img/main_icon.png" alt="main icon" class="header__icon">
-                <a class="header__main-link" href="#">Главая</a>
+          <nav class="header__menu-nav menu-nav">
+            <ul class="menu-nav__list">
+              <li class="menu-nav__item">
+                <a href="" class="menu-nav__link">
+                  <div class="menu-nav__icon menu-nav__icon--main"></div>
+                  <div class="menu-nav__text">Главная</div>
+                </a>
               </li>
-              <li class="header__main-item">
-                <img src="img/feed_icon.png" alt="feed icon" class="header__icon">
-                <a class="header__main-link" href="#">Отзывы</a>
+              <li class="menu-nav__item">
+                <a href="./reviews/reviews.html" class="menu-nav__link">
+                  <div class="menu-nav__icon menu-nav__icon--reviews"></div>
+                  <div class="menu-nav__text">Отзывы</div>
+                </a>
               </li>
-              <li class="header__main-item">
-                <img src="img/service_icon.png" alt="service icon" class="header__icon">
-                <a class="header__main-link" href="#">Услуги</a>
+              <li class="menu-nav__item">
+                <a href="" class="menu-nav__link">
+                  <div class="menu-nav__icon menu-nav__icon--services"></div>
+                  <div class="menu-nav__text">Услуги</div>
+                </a>
               </li>
             </ul>
           </nav>
         </div>
+
         <div class="header__right header__col">
-          <a class="header__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-          <span class="header__schedule">График работы</span>
+          <address class="contacts">
+            <a class="header__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
+            <div class="header__schedule">График работы</div>
+          </address>
         </div>
       </div>
     </header>
@@ -44,20 +61,19 @@
     <div class="banner">
       <div class="container">
         <div class="banner__inner">
-          <img class="banner__inner-img" src="img/banner.png" alt="Just do it">
+          <img class="banner__inner-img" src="img/decor/banner.png" alt="Just do it">
         </div>
       </div>
     </div>
 
-    <div class="features">
+    <section class="features">
       <div class="container">
         <div class="features__cont">
-          <h2 class="features__title">особенности</h2>
-          <ul class="features__list">
+          <h2 class="features__title title">особенности</h2>
+          <ul class="features__list clearfix">
+
             <li class="features__item">
-              <div class="features__icon">
-                <img src="img/flower.png" alt="flower" class="features__icon-img">
-              </div>
+              <div class="features__icon features__image--flower"></div>
               <div class="features__text">
                 <span class="features__card-title">уникальность</span>
                 <p class="features__card-text">Мы делаем все, для вашего комфорта</p>
@@ -68,24 +84,22 @@
                 </ul>
               </div>
             </li>
+
             <li class="features__item">
-              <div class="features__icon">
-                <img src="img/star.png" alt="star" class="features__icon-img">
-              </div>
+            <div class="features__icon features__image--star"></div>
               <span class="features__card-title">премиум-класс</span>
               <div class="features__card">
                 <p class="features__card-text">Наш зал оборудован тренажёрами A-класса </p>
                 <ul class="features__card-list">
                   <li class="features__card-item">Качество</li>
-                  <li class="features__card-item">Качество</li>
+                  <li class="features__card-item">Продуктивность</li>
                   <li class="features__card-item">Результат</li>
                 </ul>
               </div>
             </li>
+
             <li class="features__item">
-              <div class="features__icon">
-                <img src="img/palette.png" alt="palette" class="features__icon-img">
-              </div>
+              <div class="features__icon features__image--palette"></div>
               <span class="features__card-title">личный тренер</span>
               <div class="features__card">
                 <p class="features__card-text">Тренер сделает всё для вашего результата</p>
@@ -100,118 +114,156 @@
 
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="feeds">
       <div class="container">
-        <h2 class="feeds__title">последние новости</h2>
-        <div class="feeds__block">
-          <ul class="feeds__list">
-            <li class="feeds__item">
-              <div class="feeds__image">
-                <img src="img/feed1.jpg" alt="feed image" class="feed__image">
-              </div>
-              <div class="feed__text">
-                <span class="feed__date">12.10.2016</span>
-                <h3 class="feed__title">Похудение с помощью бодибилдинга!</h3>
-                <p class="feed__content">
-                  Вдыхание одного литра кислорода эквивалентно «сжиганию» 5
-                  калорий, однако в минуту при самом высоком темпе движений атлет
-                  способен вдохнуть не более 3-4 литров кислорода. Это крайне
-                  важно для каждого начинающего атлета.</p>
-              </div>
-            </li>
-            <li class="feeds__item">
-              <div class="feeds__image">
-                <img src="img/feed2.jpg" alt="feed image" class="feed__image">
-              </div>
-              <div class="feed__text">
-                <span class="feed__date">01.02.2016</span>
-                <h3 class="feed__title">Заражай друзей, получай призы!</h3>
-                <p class="feed__content">
-                  Дополнительно для Вас: пользование сауной и предоставление
-                  средств личной гигиены, пользование баром, таблица замеров,
-                  дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем
-                  комфорте и предлагаем испытать это уже сегодня!</p>
-              </div>
-            </li>
-            <li class="feeds__item">
-              <div class="feeds__image">
-                <img src="img/feed3.jpg" alt="feed image" class="feed__image">
-              </div>
-              <div class="feed__text">
-                <span class="feed__date">22.12.2015</span>
-                <h3 class="feed__title">Фрилансер? Выпрями спину!</h3>
-                <p class="feed__content">
-                  Создайте рабочее место под себя. Вот этот инструмент поможет
-                  определить, что подходит именно вам и вашему организму.
-                  Используйте специальную подставку для ноутбука, если вы проводите
-                  за ним больше 2 часов. Настройте высоту и яркость монитора!</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <h2 class="feeds__title title">Последние новости</h2>
 
-        <div class="feeds__top">
-            <span class="feeds__top-title feeds__top-start">топ новостей</span>
-            <span class="feeds__top-title feeds__top-end">за сентябрь</span>
+        <div class="feeds__cont clearfix">
+
+          <div class="feeds__block">
+            <ul class="feeds__list">
+              <li class="feeds__item clearfix">
+                <div class="feed__image">
+                  <img src="./img/content/feed1.jpg" alt="feed image" class="feed__image-pic">
+                </div>
+                <div class="feed__text">
+                  <span class="feed__date">12.10.2016</span>
+                  <h3 class="feed__title">Похудение с помощью бодибилдинга!</h3>
+                  <p class="feed__content">
+                    Вдыхание одного литра кислорода эквивалентно «сжиганию» 5
+                    калорий, однако в минуту при самом высоком темпе движений атлет
+                    способен вдохнуть не более 3-4 литров кислорода. Это крайне
+                    важно для каждого начинающего атлета.</p>
+                </div>
+              </li>
+
+              <li class="feeds__item clearfix">
+                <div class="feed__image">
+                  <img src="./img/content/feed2.jpg" alt="feed image" class="feed__image-pic">
+                </div>
+                <div class="feed__text">
+                  <span class="feed__date">01.02.2016</span>
+                  <h3 class="feed__title">Заражай друзей, получай призы!</h3>
+                  <p class="feed__content">
+                    Дополнительно для Вас: пользование сауной и предоставление
+                    средств личной гигиены, пользование баром, таблица замеров,
+                    дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем
+                    комфорте и предлагаем испытать это уже сегодня!</p>
+                </div>
+              </li>
+
+              <li class="feeds__item clearfix">
+                <div class="feed__image">
+                  <img src="./img/content/feed3.jpg" alt="feed image" class="feed__image-pic">
+                </div>
+                <div class="feed__text">
+                  <span class="feed__date">22.12.2015</span>
+                  <h3 class="feed__title">Фрилансер? Выпрями спину!</h3>
+                  <p class="feed__content">
+                    Создайте рабочее место под себя. Вот этот инструмент поможет
+                    определить, что подходит именно вам и вашему организму.
+                    Используйте специальную подставку для ноутбука, если вы проводите
+                    за ним больше 2 часов. Настройте высоту и яркость монитора!</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <aside class="feeds__top">
+            <div class="feeds__top-title">топ новостей</div>
+            <div class="feeds__top-title feeds__top-mounth">за сентябрь</div>
             <ul class="feeds__top-list">
               <li class="feeds__top-item">
-                <img src="img/feed-top1.jpg" alt="feed image" class="feeds__top-image">
+                <img src="./img/content/feed-top1.jpg" alt="feed image" class="feeds__top-image">
               </li>
               <li class="feeds__top-item">
-                <img src="img/feed-top2.jpg" alt="feed image" class="feeds__top-image">
+                <img src="./img/content/feed-top2.jpg" alt="feed image" class="feeds__top-image">
               </li>
               <li class="feeds__top-item">
-                <img src="img/feed-top3.jpg" alt="feed image" class="feeds__top-image">
+                <img src="./img/content/feed-top3.jpg" alt="feed image" class="feeds__top-image">
               </li>
             </ul>
-          </div>
-
-        <div class="feeds__pages">
-          <span class="feeds__page">Страница 1 из 7</span>
-          <div class="feeds__nav">
-            <span class="feeds__back"><</span>
-            <ul class="feeds__pages-list">
-              <li class="feeds__pages-item">1</li>
-              <li class="feeds__pages-item">2</li>
-              <li class="feeds__pages-item">3</li>
-              <li class="feeds__pages-item">4</li>
-              <li class="feeds__pages-item">5</li>
-              <li class="feeds__pages-item">6</li>
-              <li class="feeds__pages-item">7</li>
-            </ul>
-            <span class="feeds__forward">></span>
-          </div>
+          </aside>
         </div>
+
+        <div class="pagination">
+          <div class="pagination__display">Страница 1 из 7</div>
+          <a href="#" class="pagination__btn pagination__btn--prev pagination__btn--active">
+            <img src="./img/icons/back.png" alt="" class="pagination__btn-icon">
+          </a>
+          <ul class="pagination__list">
+            <li class="pagination__item pagination__item--active">
+              <a href="#" class="pagination__link">1</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">4</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">5</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">6</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">7</a>
+            </li>
+          </ul>
+          <a href="#" class="pagination__btn pagination__btn--next">
+            <img src="./img/icons/forward.png" alt="" class="pagination__btn-icon">
+          </a>
+        </div>
+
       </div>
     </div>
 
   </div>
 
   <footer class="footer">
-    <div class="container">
+    <div class="container clearfix">
       <div class="footer__left footer__col">
-        <p class="footer__copyright">
-          Сделано с любовью и старанием
-          на курсе «HTML + CSS» в <span class="footer__link"><a href="https://loftschool.com/">LoftSchool</a></span>.
-          Атор работы: <strong>Овчаренко Артур</strong>
-        </p>
+        <div class="footer__copyright">
+          Сделано с любовью и старанием <br>
+          на курсе «HTML + CSS» в <a href="https://loftschool.com/">LoftSchool</a>. <br>
+          Автор работы: <span class="bold-text">Овчаренко Артур</span>
+        </div>
       </div>
 
       <div class="footer__mid footer__col">
-        <img src="img/logo.png" alt="" class="header__logo-image">
+        <a href="" class="logo">
+          <img src="./img/logo/logo.png" alt="" class="logo__image">
+        </a>
       </div>
 
       <div class="footer__right footer__col">
-        <span class="footer__social">Наши социальные сети</span>
-        <ul class="footer__social-list">
-          <li class="footer__social-item"><a href="#" class="footer__social-link vk-social-btn">Вконтакте</a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link fb-social-btn">Фейсбук</a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link gp-social-btn">Гугл+</a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link tw-social-btn">Твиттер</a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link em-social-btn">Почта</a></li>
-        </ul>
+        <div class="socials">
+          <div class="socials__title">Наши социальные сети</div>
+          <ul class="social-list">
+            <li class="socials__item">
+              <a href="#" class="socials__link socials__link--vk"> </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link socials__link--fb"></a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link socials__link--gp"></a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link socials__link--tw"></a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link socials__link--mail"></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>

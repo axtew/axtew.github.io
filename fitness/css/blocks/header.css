@@ -1,0 +1,103 @@
+.header {
+  background: #131415;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 79px;
+}
+
+.header__left,
+.header__mid,
+.header__right {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33.33%;
+}
+
+.header .container {
+  font-size: 0;
+}
+
+.header__menu-nav,
+.contacts {
+  line-height: 1;
+}
+
+.header__menu-nav {
+  text-align: center;
+  font-size: 0;
+}
+
+.menu-nav__item {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  display: inline-block;
+  width: 33.33%
+}
+
+.menu-nav__item {
+  text-align: left;
+  padding-left: 18px;
+  box-sizing: border-box;
+}
+
+.menu-nav__item:first-of-type {
+  padding-left: 7px;
+}
+
+.menu-nav__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-nav__icon {
+  padding-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-nav__icon--main {
+  background: url('./../../img/icons/main_icon.png') 0 0 no-repeat;
+  width: 24px;
+  height: 14px;
+}
+
+.menu-nav__icon--reviews {
+  background: url('./../../img/icons/review_icon.png') 0 0 no-repeat;
+  width: 24px;
+  height: 18px;
+}
+
+.menu-nav__icon--services {
+  background: url('./../../img/icons/service_icon.png') 0 0 no-repeat;
+  width: 24px;
+  height: 14px;
+}
+
+.menu-nav__text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__right {
+  font-weight: bold;
+  text-align: right;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.header__phone {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.header__schedule {
+  color: #c77814;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 5px;
+}
