@@ -98,6 +98,10 @@
 .form__controls-value {
   position: relative;
   cursor: pointer;
+
+}
+
+.form__controls-value .form__radio:checked {
   color: #f89513;
 }
 
@@ -110,16 +114,25 @@
   background: #f89513;
 }
 
+.form__radio:checked + .form__controls-value--check::before {
+  border: 1px solid #f89513;
+  box-shadow: none;
+}
+
+.form__radio:checked ~ .form__radio-text {
+  color: #f89513;
+}
+
 .form__controls-value--check::before {
   content: '';
   display: block;
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #f89513;
   width: 18px;
   height: 18px;
   top: -6px;
   left: -6px;
+  box-shadow: 0 0 1px black;
 }
 
 .form__controls-value--check {
