@@ -106,10 +106,10 @@
   overflow: hidden;
 }
 
-.feeds__top-item:not(:last-of-type) {
+.feeds__top-item {
   margin-bottom: 13px;
 }
 
-.feeds__top-item:last-of-type {
+.feeds__top-item:last-child {
   margin-bottom: 0px;
 }
