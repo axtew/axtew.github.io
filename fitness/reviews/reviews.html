@@ -190,6 +190,7 @@
       </div>
     </div>
 
+
     <div class="form">
       <div class="container">
         <form action="">
@@ -218,12 +219,18 @@
                   <div class="form__controls-title">Отображать фото в отзыве?</div>
                   <div class="form__control-btns">
                     <div class="form__controls-trigger">
-                      <input type="radio" checked name="photo" id="yes-btn" class="form__radio">
-                      <label for="yes-btn" class="form__controls-value">Да</label>
+                      <label for="yes-btn" class="form__controls-value">
+                        <input type="radio" checked name="photo" id="yes-btn" class="form__radio">
+                        <span class="form__controls-value--check"></span>
+                        Да
+                      </label>
                     </div>
                     <div class="form__controls-trigger">
-                      <input type="radio" name="photo" id="no-btn" class="form__radio">
-                      <label for="no-btn" class="form__controls-value">Нет</label>
+                      <label for="no-btn" class="form__controls-value">
+                        <input type="radio" name="photo" id="no-btn" class="form__radio">
+                        <span class="form__controls-value--check"></span>
+                        Нет
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -280,6 +287,6 @@
       </div>
     </div>
   </footer>
-
+  
 </body>
 </html>

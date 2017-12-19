@@ -6,19 +6,17 @@
 }
 
 .info__text {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: lighter;
   color: #fff;
   margin: 0 auto;
-  width: 665px;
+  width: 667px;
   padding-top: 21px;
   padding-bottom: 30px;
   line-height: 30px;
-  letter-spacing: 1px;
 }
 
 .yellow-text {
   font-weight: bold;
-  letter-spacing: 1.2px;
   color: #f89513;
 }
