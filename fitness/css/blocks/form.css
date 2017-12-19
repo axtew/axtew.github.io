@@ -98,6 +98,7 @@
 .form__controls-value {
   position: relative;
   cursor: pointer;
+  color: #f89513;
 }
 
 .form__radio {
