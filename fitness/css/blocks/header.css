@@ -21,6 +21,10 @@
   font-size: 0;
 }
 
+.header__left {
+  font-size: 14px;
+}
+
 .header__menu-nav,
 .contacts {
   line-height: 1;
