@@ -57,30 +57,92 @@
 .menu-nav__link {
   color: #ffffff;
   text-decoration: none;
+  transition: .3s;
 }
 
 .menu-nav__icon {
   padding-right: 8px;
   display: inline-block;
   vertical-align: middle;
+  background-image: url('./../../img/sprite/sprites.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.menu-nav__icon::after {
+  content: "";
+  padding-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url('./../../img/sprite/sprites.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: .3s;
+}
+
+.menu-nav__link:hover .menu-nav__icon::after {
+  opacity: 1;
+}
+
+.menu-nav__link:hover {
+  color: #f89513;
+}
+
+.menu-nav__link--active {
+  color: #f89513;
 }
 
 .menu-nav__icon--main {
-  background: url('./../../img/icons/main_icon.png') 0 0 no-repeat;
+  background-position: 0 -50px;
   width: 24px;
   height: 14px;
 }
 
+.menu-nav__icon--main::after {
+  background-position: 0 -100px;
+  width: 24px;
+  height: 14px;
+  opacity: 0;
+}
+
+.menu-nav__link--active .menu-nav__icon--main {
+  background-position: 0 -100px;
+}
+
 .menu-nav__icon--reviews {
-  background: url('./../../img/icons/review_icon.png') 0 0 no-repeat;
+  background-position: -50px -50px;
   width: 24px;
   height: 18px;
 }
 
+.menu-nav__icon--reviews::after {
+  background-position: -50px -100px;
+	width: 20px;
+	height: 18px;
+  opacity: 0;
+}
+
+.menu-nav__link--active .menu-nav__icon--reviews {
+  background-position: -50px -100px;
+}
+
 .menu-nav__icon--services {
-  background: url('./../../img/icons/service_icon.png') 0 0 no-repeat;
+  background-position: -100px -50px;
   width: 24px;
   height: 14px;
+  transition: .5s;
+}
+
+.menu-nav__icon--services::after {
+  background-position: -100px -100px;
+  width: 24px;
+  height: 14px;
+  opacity: 0;
+}
+
+.menu-nav__link--active .menu-nav__icon--services {
+  background-position: -100px -100px;
 }
 
 .menu-nav__text {

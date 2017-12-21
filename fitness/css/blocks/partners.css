@@ -1,0 +1,79 @@
+.partners {
+  margin-bottom: 158px;
+}
+
+.partners__title {
+  margin-bottom: 70px;
+}
+
+.partners__row {
+  font-size: 0;
+  margin-bottom: 52px;
+}
+
+.partners__row:last-child {
+  margin-bottom: 0;
+}
+
+.partners__item {
+  display: inline-block;
+  position: relative;
+  width: 33.33%;
+  height: 63px;
+}
+
+.partners__image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('./../../img/sprite/sprites.png');
+  filter: grayscale(100%);
+  transition: .5s;
+}
+
+.partners__image:hover {
+  filter: grayscale(0%);
+}
+
+.partners__item:last-child {
+  margin-right: 0;
+}
+
+.partners__image--flamingo {
+  background-position: 0 -250px;
+	width: 141px;
+	height: 63px;
+}
+
+.partners__image--malibu {
+  background-position: -200px -250px;
+	width: 160px;
+	height: 28px;
+}
+
+.partners__image--lion {
+  background-position: -400px -250px;
+	width: 61px;
+	height: 62px;
+}
+
+.partners__image--arni {
+  background-position: -500px -250px;
+	width: 125px;
+	height: 64px;
+}
+
+.partners__image--grif {
+  background-position: -200px -350px;
+	width: 160px;
+	height: 45px;
+}
+
+.partners__image--athlete {
+  background-position: -400px -350px;
+	width: 42px;
+	height: 62px;
+}

@@ -1,0 +1,173 @@
+.arni-color{
+	background-position: -500px -250px ;
+	width: 125px;
+	height: 64px;
+}
+
+.grif{
+	background-position: 0 -350px ;
+	width: 160px;
+	height: 45px;
+}
+
+.grif-color{
+	background-position: -200px -350px ;
+	width: 160px;
+	height: 45px;
+}
+
+.athlete{
+	background-position: -500px -350px ;
+	width: 42px;
+	height: 62px;
+}
+
+.athlete-color{
+	background-position: -400px -350px ;
+	width: 42px;
+	height: 62px;
+}
+
+.logo{
+	background-position: 0 0;
+	width: 160px;
+	height: 18px;
+}
+
+.flamingo{
+	background-position: 0 -150px ;
+	width: 141px;
+	height: 63px;
+}
+
+.flamingo-color{
+	background-position: 0 -250px ;
+	width: 141px;
+	height: 63px;
+}
+
+.malibu{
+	background-position: -200px -151px ;
+	width: 160px;
+	height: 28px;
+}
+
+.malibu-color{
+	background-position: -200px -250px ;
+	width: 160px;
+	height: 28px;
+}
+
+.lion{
+	background-position: -400px -150px ;
+	width: 61px;
+	height: 62px;
+}
+
+.lion-color{
+	background-position: -400px -250px ;
+	width: 61px;
+	height: 62px;
+}
+
+.arni{
+	background-position: -500px -150px ;
+	width: 125px;
+	height: 64px;
+}
+
+.arrow-na{
+	background-position: -200px -40px ;
+	width: 6px;
+	height: 10px;
+}
+
+.arrow-a{
+	background-position: -200px 0;
+	width: 6px;
+	height: 10px;
+}
+
+.flower{
+	background-position: -250px 0;
+	width: 27px;
+	height: 31px;
+}
+
+.palette{
+	background-position: -300px 0;
+	width: 28px;
+	height: 29px;
+}
+
+.star{
+	background-position: -350px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.main_icon{
+	background-position: 0 -50px ;
+	width: 19px;
+	height: 14px;
+}
+
+.review_icon{
+	background-position: -50px -50px ;
+	width: 20px;
+	height: 18px;
+}
+
+.service_icon{
+	background-position: -100px -50px ;
+	width: 19px;
+	height: 14px;
+}
+
+.main_icon-a{
+	background-position: 0 -100px ;
+	width: 19px;
+	height: 14px;
+}
+
+.review_icon-a{
+	background-position: -50px -100px ;
+	width: 20px;
+	height: 18px;
+}
+
+.service_icon-a{
+	background-position: -100px -100px;
+	width: 19px;
+	height: 14px;
+}
+
+.vk{
+	background-position: -450px 0;
+	width: 12px;
+	height: 7px;
+}
+
+.fb{
+	background-position: -500px 0;
+	width: 6px;
+	height: 13px;
+}
+
+.google{
+	background-position: -550px 0;
+	width: 15px;
+	height: 9px;
+}
+
+.twitter{
+	background-position: -600px 0;
+	width: 11px;
+	height: 9px;
+}
+
+.mail{
+	background-position: -400px 0;
+	width: 12px;
+	height: 9px;
+}
