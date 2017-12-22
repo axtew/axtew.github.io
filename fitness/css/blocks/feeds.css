@@ -24,6 +24,12 @@
 .feeds__item {
   display: block;
   box-sizing: border-box;
+  transition: background-color .6s;
+}
+
+.feeds__item:hover {
+  background-color: rgba(224, 224, 224, 0.25);
+  border-radius: 10px;
 }
 
 .feed__image,
@@ -32,16 +38,36 @@
 }
 
 .feed__image {
-  padding-top: 27px;
-  padding-bottom: 27px;
+  margin: 27px 2px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
-.feed__image img {
+.feed__img {
+  background-size: 160px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 2px;
+  transition: .5s;
+}
+
+.feed__img--body {
+  background-image: url('../../img/content/feed1.jpg');
+}
+
+.feed__img--friens {
+  background-image: url('../../img/content/feed2.jpg');
+}
+
+.feed__img--freelance {
+  background-image: url('../../img/content/feed3.jpg');
+}
+
+.feed__img:hover {
+  transform: scale(1.1);
 }
 
 .feed__text {

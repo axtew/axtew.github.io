@@ -52,7 +52,13 @@
         <div class="header__right header__col">
           <address class="contacts">
             <a class="header__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-            <div class="header__schedule">График работы</div>
+            <div class="header__schedule">
+              График работы
+              <ul class="dropdown">
+                <li class="dropdown__item dropdown__item--working">пн-вс: 09:00-20:00</li>
+                <li class="dropdown__item dropdown__item--lunch">обед: 14:00-14:30</li>
+              </ul>
+            </div>
           </address>
         </div>
       </div>
@@ -126,7 +132,8 @@
             <ul class="feeds__list">
               <li class="feeds__item clearfix">
                 <div class="feed__image">
-                  <img src="./img/content/feed1.jpg" alt="feed image" class="feed__image-pic">
+                  <div class="feed__img feed__img--body"></div>
+
                 </div>
                 <div class="feed__text">
                   <span class="feed__date">12.10.2016</span>
@@ -141,7 +148,7 @@
 
               <li class="feeds__item clearfix">
                 <div class="feed__image">
-                  <img src="./img/content/feed2.jpg" alt="feed image" class="feed__image-pic">
+                  <div class="feed__img feed__img--friens"></div>
                 </div>
                 <div class="feed__text">
                   <span class="feed__date">01.02.2016</span>
@@ -156,7 +163,7 @@
 
               <li class="feeds__item clearfix">
                 <div class="feed__image">
-                  <img src="./img/content/feed3.jpg" alt="feed image" class="feed__image-pic">
+                  <div class="feed__img feed__img--freelance"></div>
                 </div>
                 <div class="feed__text">
                   <span class="feed__date">22.12.2015</span>

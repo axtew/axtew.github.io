@@ -54,13 +54,11 @@
 }
 
 .pagination__item--active .pagination__link {
-  color: #ffffff;
+  color: #f89513;
   background-color: #27273e;
   border-radius: 3px;
 }
 
 .pagination__link:hover {
-  color: #ffffff;
-  background-color: #27273e;
-  border-radius: 3px;
+  color: #f89513;
 }

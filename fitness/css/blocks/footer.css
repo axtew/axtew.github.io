@@ -62,10 +62,15 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #d0d0d0;
   display: block;
   background-position: center center;
   background-repeat: no-repeat;
+  transition: .3s;
+}
+
+.socials__link:hover {
+  background-color: #f89513;
 }
 
 .socials__link--vk {

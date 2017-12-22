@@ -56,6 +56,7 @@
 
 .form__input-text:focus {
   outline-color: #f89513;
+
 }
 
 .form__review {
@@ -99,6 +100,10 @@
   cursor: pointer;
 }
 
+.form__radio-text {
+  transition: .3s;
+}
+
 .form__controls-value .form__radio:checked {
   color: #f89513;
 }
@@ -106,6 +111,7 @@
 .form__radio {
   opacity: 0;
   margin-left: 10px;
+  transition: 3s;
 }
 
 .form__radio:checked + .form__controls-value--check {
@@ -115,10 +121,6 @@
 .form__radio:checked + .form__controls-value--check::before {
   border: 1px solid #f89513;
   box-shadow: none;
-}
-
-.form__radio:not(:checked) + .form__controls-value--check {
-  border: 1px solid transparent;
 }
 
 .form__radio:checked ~ .form__radio-text {
@@ -135,6 +137,8 @@
   top: -6px;
   left: -6px;
   box-shadow: 0 0 1px black;
+  border: 1px solid transparent;
+  transition: .3s;
 }
 
 .form__controls-value--check {
@@ -145,6 +149,7 @@
   position: absolute;
   top: 7px;
   left: 8px;
+  transition: .6s;
 }
 
 .form__send-btn {
@@ -159,4 +164,12 @@
   padding: 14px 20px;
   padding-top: 18px;
   letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.form__send-btn:hover {
+  color: #fff;
+  background-color: #f89513;
+  font-size: 12px;
 }
