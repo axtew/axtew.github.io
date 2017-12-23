@@ -166,12 +166,26 @@
 }
 
 .header__schedule {
-  color: #c77814;
   font-size: 14px;
-  text-decoration: underline;
   margin-top: 5px;
   position: relative;
   cursor: pointer;
+  transition: .5s;
+}
+
+.header__schedule-text {
+  color: #c77814;
+  text-decoration: underline;
+  transition: .3s;
+  display: inline;
+}
+
+.header__schedule-text:hover {
+  color: #fff;
+}
+
+.header__schedule-text:hover {
+  color: #fff;
 }
 
 .header__schedule::after {
@@ -242,7 +256,10 @@
   max-height: none;
 }
 
+.dropdown__item--working {
+  color: #c77814;
+}
+
 .dropdown__item--lunch {
   font-weight: lighter;
-  color: #221f1f;
 }

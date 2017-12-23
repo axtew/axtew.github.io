@@ -14,7 +14,6 @@
   content: "/";
   display: inline-block;
   color: #221f1f;
-  opacity: .8;
 }
 
 .breadcrumbs__item:last-child:after {
@@ -24,7 +23,6 @@
 .breadcrumbs__link {
   font-size: 14px;
   font-weight: 300;
-  /*font-style: italic;*/
   color: #f9aa42;
   opacity: .8;
 }
