@@ -185,7 +185,6 @@
 }
 
 .header__schedule:hover .dropdown {
-  box-shadow: 5px 5px 5px rgba(0,0,0,.2);
   padding: 15px 11px;
 }
 
@@ -196,10 +195,6 @@
 
 .header__schedule:hover .dropdown::before {
   border-bottom-width: 10px;
-}
-
-.header__schedule:hover .dropdown__item {
-  line-height: 22px;
 }
 
 .dropdown::before {
@@ -239,6 +234,12 @@
   padding-left: 10px;
   transition: .4s;
   overflow: hidden;
+  max-height: 0;
+}
+
+.header__schedule:hover .dropdown__item {
+  line-height: 22px;
+  max-height: none;
 }
 
 .dropdown__item--lunch {
