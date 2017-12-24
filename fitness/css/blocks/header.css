@@ -163,12 +163,15 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 21px;
+  display: inline-block;
+  width: 100%;
 }
 
 .header__schedule {
   font-size: 14px;
   margin-top: 5px;
   position: relative;
+  display: inline-block;
 }
 
 .header__schedule-text {
