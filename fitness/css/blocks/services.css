@@ -8,7 +8,7 @@
 }
 
 .services {
-  margin-bottom: 57px;
+  margin-bottom: 12px;
 }
 
 .services__title {
@@ -20,15 +20,7 @@
 .services__list {
   width: 880px;
   margin: 0 auto;
-}
-
-.services__row {
   font-size: 0;
-  margin-bottom: 45px;
-}
-
-.services__row:last-child {
-  margin-bottom: 0;
 }
 
 .services__item {
@@ -36,9 +28,10 @@
   width: 260px;
   vertical-align: top;
   margin-right: 50px;
+  margin-bottom: 45px;
 }
 
-.services__item:last-child {
+.services__item:nth-child(3n) {
   margin-right: 0;
 }
 

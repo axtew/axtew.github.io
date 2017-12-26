@@ -1,18 +1,17 @@
 .partners {
-  margin-bottom: 158px;
+  margin-bottom: 106px;
 }
 
 .partners__title {
   margin-bottom: 70px;
 }
 
-.partners__row {
-  font-size: 0;
-  margin-bottom: 52px;
-}
-
 .partners__row:last-child {
   margin-bottom: 0;
+}
+
+.partners__list {
+  font-size: 0;
 }
 
 .partners__item {
@@ -20,6 +19,7 @@
   position: relative;
   width: 33.33%;
   height: 63px;
+  margin-bottom: 52px;
 }
 
 .partners__image {
