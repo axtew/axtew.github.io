@@ -31,7 +31,7 @@ body {
 .wrapper::after {
   content: "";
   display: block;
-  margin: 75px;
+  height: 75px;
 }
 
 .clearfix:after {

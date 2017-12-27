@@ -1,13 +1,13 @@
 .feeds {
-  padding-bottom: 67px;
+  margin-bottom: 67px;
 }
 
 .feeds__cont {
-  margin-bottom: 32px;
+  margin-bottom: 43px;
 }
 
 .feeds__title {
-  padding-top: 51px;
+  padding-top: 0;
   padding-bottom: 35px;
   margin: 0;
 }
@@ -32,12 +32,12 @@
   border-radius: 10px;
 }
 
-.feed__image,
-.feed__text {
+.feeds__image,
+.feeds__text {
   float: left;
 }
 
-.feed__image {
+.feeds__image {
   margin: 27px 2px;
   width: 160px;
   height: 160px;
@@ -45,7 +45,7 @@
   border-radius: 50%;
 }
 
-.feed__img {
+.feeds__img {
   background-size: 160px;
   width: 160px;
   height: 160px;
@@ -54,35 +54,35 @@
   transition: .5s;
 }
 
-.feed__img--body {
+.feeds__img--body {
   background-image: url('../../img/content/feed1.jpg');
 }
 
-.feed__img--friens {
+.feeds__img--friens {
   background-image: url('../../img/content/feed2.jpg');
 }
 
-.feed__img--freelance {
+.feeds__img--freelance {
   background-image: url('../../img/content/feed3.jpg');
 }
 
-.feed__img:hover {
+.feeds__img:hover {
   transform: scale(1.1);
 }
 
-.feed__text {
+.feeds__text {
   margin-top: 24px;
   margin-left: 16px;
   width: 611px;
 }
 
-.feed__date {
+.feeds__date {
   color: #656464;
   font-size: 14px;
   font-weight: lighter;
 }
 
-.feed__title {
+.feeds__name {
   font-weight: bold;
   color: #221f1f;
   font-size: 18px;
@@ -90,7 +90,7 @@
   margin-bottom: 2px;
 }
 
-.feed__content {
+.feeds__content {
   font-size: 18px;
   color: #221f1f;
   font-weight: 300;

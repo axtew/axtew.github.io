@@ -4,6 +4,8 @@
   background-position: center center;
   background-repeat: no-repeat;
   margin-bottom: 60px;
+  padding-top: 21px;
+  padding-bottom: 30px;
 }
 
 .info__text {
@@ -12,8 +14,6 @@
   color: #fff;
   margin: 0 auto;
   width: 667px;
-  padding-top: 21px;
-  padding-bottom: 30px;
   line-height: 30px;
 }
 

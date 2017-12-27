@@ -11,6 +11,7 @@
   text-align: left;
   padding: 0;
   letter-spacing: 2.5px;
+  margin-bottom: 29px;
 }
 
 .reviews__block {
@@ -19,6 +20,10 @@
 
 .reviews__item {
   margin-top: 29px;
+}
+
+.reviews__item:first-child {
+  margin-top: 0px;
 }
 
 .reviews__image,

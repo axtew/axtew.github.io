@@ -2,6 +2,13 @@
   background: #131415;
   color: #fff;
   padding-bottom: 95px;
+  margin-bottom: 49px;
+  padding-top: 48px;
+}
+
+.features__title {
+  padding: 0;
+  margin-bottom: 48px;
 }
 
 .features__list {

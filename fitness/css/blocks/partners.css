@@ -1,8 +1,10 @@
 .partners {
-  margin-bottom: 106px;
+  margin-bottom: 31px;
 }
 
 .partners__title {
+  padding: 0;
+  text-align: left;
   margin-bottom: 70px;
 }
 
