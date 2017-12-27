@@ -8,8 +8,9 @@
 
 .feeds__title {
   padding-top: 0;
-  padding-bottom: 35px;
+  padding-bottom: 0;
   margin: 0;
+  margin-bottom: 35px;
 }
 
 .feeds__block {
@@ -23,7 +24,6 @@
 
 .feeds__item {
   display: block;
-  box-sizing: border-box;
   transition: background-color .6s;
 }
 
@@ -43,6 +43,7 @@
   height: 160px;
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 19px;
 }
 
 .feeds__img {
@@ -72,7 +73,6 @@
 
 .feeds__text {
   margin-top: 24px;
-  margin-left: 16px;
   width: 611px;
 }
 
@@ -86,8 +86,8 @@
   font-weight: bold;
   color: #221f1f;
   font-size: 18px;
-  margin-top: 3px;
-  margin-bottom: 2px;
+  margin-top: 0;
+  margin-bottom: 7px;
 }
 
 .feeds__content {
