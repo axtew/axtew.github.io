@@ -1,0 +1,59 @@
+.content {
+  background-image: url('./../../img/decor/gym.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content::after {
+  content: "";
+  background-color: #000;
+  opacity: .5;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.entrance {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+}
+
+.entrance__image {
+  margin: 0 auto;
+  width: 160px;
+  height: 193px;
+  background-image: url('./../../img/logo/intro-logo.png');
+  margin-bottom: 40px;
+}
+
+.entrance__btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #f89513;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: .4s;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.entrance__btn:hover {
+  background-color: #131415;
+}
